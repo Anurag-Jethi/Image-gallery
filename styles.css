@@ -14,3 +14,21 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.wrapper h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(41,41,41);
+}
+
+.card {
+    width: 32%;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
