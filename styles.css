@@ -24,11 +24,29 @@
 
 .card {
     width: 32%;
-    position: relative;
+    height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    transition: 0.5sec;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px #333);
+}
+
+.card:hover img {
+    filter: grayscale(0);
 }
