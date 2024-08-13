@@ -50,3 +50,16 @@
 .card:hover img {
     filter: grayscale(0);
 }
+
+.card figcaption{
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+    height: 16%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
