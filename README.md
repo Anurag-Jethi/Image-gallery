@@ -7,6 +7,11 @@ This project is an image gallery created using HTML and CSS. The gallery feature
 - **Grayscale to Color Transition**: All images are displayed in grayscale by default. When hovered over, they transition smoothly to full color.
 - **Caption with Transition**: A caption is hidden initially but becomes visible with a transition effect when the image is hovered over.
 
+## Screenshots
+![1](/assets/Screenshot%202024-08-16%20010929.png)
+![2](/assets/Screenshot%202024-08-16%20010935.png)
+![3](/assets/Screenshot%202024-08-16%20010918.png)
+
 ## Installation
 
 To run this project locally, follow these steps:
